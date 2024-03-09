@@ -1,0 +1,12 @@
+{
+  "name": "dropbox-api-tests",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "newman run Dropbox.postman_collection.json -e Dropbox.postman_environment.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
